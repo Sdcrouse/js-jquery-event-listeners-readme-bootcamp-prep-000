@@ -10,7 +10,7 @@ function frameIt() { /* This will execute when it knows that the image has loade
   //console.log("Will this display?");
   //$('img').trigger('load');
   $('img').on('load', function() {
-    //console.log("Testing!");
+    //console.log("Testing again!");
     
     $('img').addClass("tasty");
     
